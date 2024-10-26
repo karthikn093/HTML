@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .section{
+        position: relative;
+        top: 150px;
+    }
+    .section1{
+        position: absolute;
+        transform: rotateX(40deg);
+        transform: rotateY(150deg);
+        margin-left: 850px;
+        margin-top: -150px;
+        animation: animi1 5s linear;
+    }
+    @keyframes animi1{
+        0%{
+            margin-left: 800px;
+            margin-top: -145px;
+        }
+        10%{
+            margin-left: 700px;
+            margin-top: -135px;
+        }
+        20%{
+            margin-left: 600px;
+            margin-top: -125px;
+        }
+        30%{
+            margin-left: 500px;
+            margin-top: -115px;
+        }
+        40%{
+            margin-left: 400px;
+            margin-top: -105px;
+            }
+        50%{
+            margin-left: 300px;
+            margin-top: -85px;
+        }
+        60%{
+            margin-left: 200px;
+            margin-top: -65px;
+        }
+        70%{
+            margin-left: 100px;
+            margin-top: -45px;
+        }
+        100%{
+            margin-left: 0px;
+            margin-top: -25px;
+        }
+    }       
+</style>
+<body>
+    <div class="section">
+        <img src="road.jpg" alt="" height="400"width="100%">
+    </div>
+    <div class="section1">
+        <img src="car1-removebg-preview.png" alt="" height="200" width="70%">
+    </div>
+</body>
+</html>

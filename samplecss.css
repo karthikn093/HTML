@@ -1,0 +1,27 @@
+#internal1{
+    color: violet;
+    font-size: 50px;
+}
+h2, h4{
+    color: yellow;
+}
+.bg{
+    /* background-color: red; */
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfdFLw2VJ7znfqUV07f5RrWM_maDV-tCW1Xw&s"); */
+    background-repeat: no-repeat;
+    border: 2px solid red;
+    background-size: cover;
+    height: 200px;
+    width: 50%;
+    margin: 200px 300px;
+    border-radius: 40px;
+
+}
+.bg h1{
+    padding-left: 100px;
+    border-bottom: 2px double violet;
+    border-left: 10px solid green;
+}
+.bg p{
+    padding: 20px;
+}

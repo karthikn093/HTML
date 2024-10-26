@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<style>
+.code{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100px;
+    font-size: larger;
+    color: rgb(46, 154, 189);
+    font-display: 50px;
+}
+.name{
+    position: relative;
+    margin-top: 200px;
+    z-index: 15;
+}
+.name .name-link{
+    display: inline-block;
+    padding: 5px 10px;
+}
+ul{
+    background-color: aqua;
+}
+ul li:hover{
+    background-color: brown;
+    text-transform: uppercase;
+}
+.text .text-link{
+    padding: 10px 20px;
+}
+ol{
+    position: relative;
+    margin-top: -100px;
+    background-color: rgb(218, 200, 200);
+    list-style: none;
+    z-index: 12;
+}
+ol li:hover{
+    background-color: aliceblue;
+    list-style: none;
+    text-transform: uppercase;
+}
+.relative{
+    position: relative;
+    border: 2px solid red ;
+    width: 50%;
+    height: 400px;
+}
+.absolute{
+    position: absolute;
+    border: 2px solid blue;
+    width: 50%;
+    height: 200px;
+    top: 50px;
+    left: 50px;
+    overflow: hidden;
+    overflow-x: scroll;
+
+}
+</style>
+<body>
+    <div>
+        <p class="code">
+            coding language
+        </p>
+    </div>
+        <ul class="name">
+            <li class="name-link">home</li>
+            <li class="name-link">html</li>
+            <li class="name-link">css</li>
+            <li class="name-link">java</li>
+            <li class="name-link">python</li>
+        </ul>
+        <ol class="text">
+            <li class="text-link">home</li>
+            <li class="text-link">html</li>
+            <li class="text-link">java</li>
+            <li class="text-link">css</li>
+            <li class="text-link">python</li>
+        </ol>
+        <div class="relative">
+            <div class="absolute">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti debitis quia ipsam, eos ad, dolore eveniet perspiciatis voluptatum accusantium ipsa reiciendis vero tenetur neque non cum ipsum est rerum esse.</p>
+            </div>
+        </div>
+</body>
+</html>

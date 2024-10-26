@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<style>
+    img{
+        width: 20px;
+        height: 20px;
+    }
+    table, th, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+        font-family: "Roboto Slab", serif;
+        font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+
+    }
+    tr:nth-child(even):hover{
+        background-color: aquamarine;
+    }
+    tr:nth-child(odd):hover{
+        background-color: gold;
+    }
+    td:nth-child(even):hover{
+        background-color: blue;
+    }
+    td:nth-child(odd):hover{
+        background-color: blueviolet;
+    }
+.active{
+    background-color: brown;
+    border: 1px;
+    border-radius: 10px;
+}
+.pending{
+    background-color: blue;
+    border: 1px;
+    border-radius: 10px;
+}
+.failed{
+    background-color: cornflowerblue;
+    border: 1px;
+    border-radius: 10px;
+}
+.active:hover{
+    background-color: gold;
+}
+.pending:hover{ 
+    background-color: crimson;
+}
+.failed:hover{
+    background-color: bisque;
+}
+</style>
+<body>
+    <div class="code">
+        <table>
+            <tr>
+                <th>s.no</th>
+                <th>name</th>
+                <th>image</th>
+                <th>status</th>
+                <th>phonenumber</th>
+                <th>email</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>karthik</td>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_A3XYxlk208mkzKgaOZAZ3e8k2kHoJri7zg&usqp=CAU" alt=""></td>
+                <td><button class="active">Active</button></td>
+                <td>987654</td>
+                <td>karthikkngmail</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>karthik</td>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_A3XYxlk208mkzKgaOZAZ3e8k2kHoJri7zg&usqp=CAU" alt=""></td>
+                <td><button class="pending">pending</button></td>
+                <td>987654</td>
+                <td>karthikkngmail</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>karthik</td>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_A3XYxlk208mkzKgaOZAZ3e8k2kHoJri7zg&usqp=CAU" alt=""></td>
+                <td><button class="failed">failed</button></td>
+                <td>987654</td>
+                <td>karthikkngmail</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

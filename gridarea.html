@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .grid-container{
+        display: grid;
+        grid-template-areas: "head head head"
+                             "menu1 center side1"
+                             "menu1 center side2"
+                             "menu2 center side3"
+                             "footer footer footer"                      ;
+        /* gap: 10px; */
+        row-gap: 10px;
+        /* column-gap: 10px; */
+        background-color: #2196F3;
+        padding: 10px;
+        text-align: center;
+        width: 400px;
+    }
+    .item1{
+        grid-area: head;  
+        border: 1px solid white;
+        box-shadow: 10px 5px 10px red;
+    }
+    .item2{
+        grid-area: menu1;
+        border: 1px solid white;
+    }
+    .item3{
+        grid-area: center;
+        border: 1px solid white;
+    }
+    .item4{
+        grid-area: side1;
+        border: 1px solid white;
+    }
+    .item5{
+        grid-area: side2;
+        border: 1px solid white;
+    }
+    .item6{
+        grid-area: side3;
+        border: 1px solid white;
+    }
+    .item7{
+        grid-area: menu2;
+        border: 1px solid white;
+    }
+    .item8{
+        grid-area: footer;
+        border: 1px solid white;
+    }
+</style>
+<body>
+    <div class="grid-container">
+        <div class="grid-item item1">1</div>
+        <div class="grid-item item2">2</div>
+        <div class="grid-item item3">3</div>
+        <div class="grid-item item4">4</div>
+        <div class="grid-item item5">5</div>
+        <div class="grid-item item6">6</div>
+        <div class="grid-item item7">7</div>
+        <div class="grid-item item8">8</div>
+    </div>
+</body>
+</html>

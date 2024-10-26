@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .section1 {
+        display: flex;
+        flex-direction: row;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 15px;
+        background-color: #008AFC;
+        color: white;
+        justify-content: space-around;
+        margin-top: 10px;
+        margin-left: 0px;
+        padding: 10px;
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .section2 .nav ul li {
+        display: inline-block;
+        color: blue;
+        justify-content: space-around;
+        padding: 0px 10px;
+        margin-left: 50px;
+        font-family: sans-serif;
+        font-size: 12px;
+        font-weight: bolder;
+    }
+
+    .section2 .nav ul li:active {
+        color: orange;
+    }
+
+    .section3 {
+        position: relative;
+        background: rgb(34, 193, 195);
+        background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+        height: 530px;
+        width: 100%;
+    }
+    .home1{
+        position: absolute;
+        top: 30px;
+        left: 5%;
+    }
+    p {
+        background-color: white;
+        color: black;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 10px;
+    }
+    /* h1::before{
+        content: url('https://i.gifer.com/origin/84/84b7d7e62befb51f831bc0ed938c8742_w200.gif');
+    } */
+    .home2{
+        position: absolute;
+        top: 30px;
+        left: 20%;
+    }
+    img{
+        transition: all 2s linear 1s;
+    }
+    img:hover{
+        width: 800px;
+        height: 100px;
+    }
+</style>
+
+<body>
+    <div class="main">
+        <div class="section1">
+            <div>Coimbatore : +917845059691</div>
+            <div>Erode : +9195853 05700</div>
+            <div>Email : info@idmtechpark.com</div>
+            <div>Timing : 9:00 am to 8:00pm (all Days)</div>
+        </div>
+        <div class="section2">
+            <div class="logo">
+                <img src="https://static.wixstatic.com/media/3a0de9_cf6bb4f2ae6b4c6487552047e8a3e676~mv2.webp/v1/fill/w_237,h_44,al_c,q_80,enc_auto/IDM%20Tech%20Park.webp"
+                    alt="">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Courses</li>
+                    <li>Job Portal</li>
+                    <li>Career</li>
+                    <li>Gallery</li>
+                    <li>Enquiry</li>
+                    <li>Coimbatore</li>
+                </ul>
+            </div>
+        </div>
+        <div class="section3">
+            <div class="home1">
+                <h1>
+                <p>Best Software Training Institute in Coimbatore</p></h1>
+            </div>
+            <div class="home2">
+                <img src="image1.png" alt="" height="500" width="550">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

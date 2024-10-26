@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .drp {
+        position: absolute;
+        margin-top: 20px;
+        display: none;
+        color: blue;
+    }
+
+    .dropdown ul li {
+        position: relative;
+        display: inline-block;
+    }
+
+    .nav {
+        position: absolute;
+    }
+
+    .home:hover .drp {
+        display: block;
+    }
+
+    .home {
+        list-style: none;
+    }
+
+    .drp1 {
+        position: relative;
+        margin-top: 10px;
+        margin-left: 20px;
+        display: none;
+        color: chocolate;
+    }
+
+    .drp1 {
+        display: none;
+        color: brown;
+    }
+
+    .dropdown1 ul li {
+        display: inline-block;
+    }
+
+    .nav1 {
+        position: absolute;
+        margin-left: 20px;
+    }
+
+    .about {
+        margin-left: 10px;
+        list-style: none;
+        padding: 10px;
+    }
+
+    .about:hover .drp1 {
+        display: block;
+    }
+</style>
+
+<body>
+
+    <div class="dropdown">
+        <div class="nav">
+            <ul>
+                <li class="home">Home
+                    <div class="drp">
+                        about </br>
+                        service
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="dropdown1">
+            <div class="nav1">
+                <ul>
+                    <li class="about">About
+                        <div class="drp1">
+                            name </br>
+                            rollno
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
